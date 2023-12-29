@@ -12,6 +12,7 @@ func bool2byte(b bool) byte {
 		return 1
 	default:
 		fckd.WeAreCompletelyFckd("bool is fckd")
+		return 0            
 	}
 }
 ```
